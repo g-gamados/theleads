@@ -2,8 +2,9 @@
 
 .quiz {
     margin-top: 50px;
+    margin-bottom: 40px;
     background-color: #67B2E8;
-    height: 400px;
+    height: 380px;
     display: flex;
     justify-content: center;
     align-items: center;
