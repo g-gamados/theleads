@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+}
+
+.tam-img {
+    height: 100px;
+}
+
+.fundo {
+    background: #0c2074;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.midle-text {
+    width: 360px;
+    margin: 10px;
+}
+.midle-text1 {
+    background-color: #67b2e8;
+    text-align: center;
+    border-radius: 30px;
+    width: 360px;
+}
+.email-text {
+    font-family: Cabin, sans;
+    font-weight: 600;
+    line-height: 18px;
+}
+.circulo {
+    height: 165px;
+    width: 165px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.texto-curadoria {
+    color: black;
+    font-size: 12px;
+    font-family: Cabin, sans;
+    font-weight: 600;
+}
+.img-circulo {
+    height: 80px;
+    margin: 2px;
+}
+.button input{
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 53px;
+    border: #0c2074;
+    background-color: #0c2074;
+    color: #ffffff;
+}
+.nome{
+    text-align: left;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #000000;
+}
+.email{
+    text-align: left;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #000000;
+}
+.campo-nome input{
+    width: 300px;   
+    height: 30px;
+    font-size: 20px;    
+    background: #FFFFFF;
+}
+.campo-email input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;  
+    background: #FFFFFF;
+}
+.canto-inferior {
+    align-self: flex-end;
+ }
+.check{
+    margin-top: 20px;
+    margin-right: 45px;
+}
+.seque{
+    color: #000;
+}
