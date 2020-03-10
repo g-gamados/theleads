@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,600&display=swap');
 
-body {
- margin: 0;
-}
 
 header {
-    height: 100px;
-    /* box-shadow:  2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2) */
-}
-
-.tamanho-img {
     height: 100px;
 }
 
@@ -26,13 +18,19 @@ header {
     margin: 16px;
 }
 
+.tamanho-img {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
 .blocos-grandes {
     width: 360px;
-    margin: 10px;
+    margin-top: 40px;
 }
 
 .texto-cadastro {
-    font-family: Cabin, sans;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -42,47 +40,69 @@ header {
 .destaque {
     background-color: #67b2e8;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 50px;
     color: #000;
-    padding: 0px 16px;
+    padding: 30px;
 }
 
 .titulo-destaque {
-    font-size: 20px;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 4rem;
     color: #fff;
+    margin: 0;
 }
 
-.texto-curadoria {
-    color: black;
-    font-size: 12px;
-    font-family: Cabin, sans;
-    font-weight: 600;
-    width: 95px;
-}
-
-.circulo {
-    height: 165px;
-    width: 165px;
+.texto-obrigado {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
     color: #000;
-    background-color: #fff;
-    border-radius: 50%;
-    margin: 10px;
+    margin: 0;
+}
+
+.curadoria {
+    width: 50%;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 auto;
 }
 
-.img-circulo {
-    height: 80px;
-    margin: 2px;
-}
-
-.canto-inferior {
-   align-self: flex-end;
-}
-.lista {
-    background-color: #67b2e8;
-    text-align: left;
-    border-radius: 5px;
-    color: #fff;
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5 {
+    max-width: 300px;
     margin: 10px;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5 > h2 {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5 > p {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+ a {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #bbd839;
+    transition: all ease-out 0.2s;
+}
+
+a:hover {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(136, 210, 245);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.747);
+}
+
+a:visited {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #67b2e8;
 }
