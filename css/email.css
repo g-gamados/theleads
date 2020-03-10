@@ -1,66 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,600&display=swap');
-body {
-    margin: 0;
-}
-
-header {
-    height: 100px;
-}
-
-.tam-img {
-    height: 100px;
-}
-
-.fundo {
-    background: #0c2074;
-    color: white;
-}
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 16px;
-}
 .midle-text {
     width: 360px;
-    margin: 10px;
-}
-.midle-text1 {
     background-color: #67b2e8;
     text-align: center;
     border-radius: 30px;
     width: 360px;
     padding: 0px 16px;
-}
-.email-text {
-    font-family: Cabin, sans;
-    font-weight: 600;    
-    font-size: 20px;
-    line-height: 24px;
-    max-width: 330px;
-}
-.circulo {
-    height: 165px;
-    width: 165px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 50%;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-}
-.texto-curadoria {
-    color: black;
-    font-size: 12px;
-    font-family: Cabin, sans;
-    font-weight: 600;
-    width: 95px;
-}
-.img-circulo {
-    height: 80px;
-    margin: 2px;
 }
 .button input{
     font-size: 24px;
@@ -71,6 +16,7 @@ header {
     border: #0c2074;
     background-color: #0c2074;
     color: #ffffff;
+    margin: 15px;
 }
 .nome{
     text-align: left;
@@ -79,7 +25,7 @@ header {
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 20px;
     color: #000000;
 }
@@ -90,7 +36,7 @@ header {
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 20px;
     color: #000000;
 }
@@ -106,6 +52,3 @@ header {
     font-size: 20px;  
     background: #FFFFFF;
 }
-.canto-inferior {
-    align-self: flex-end;
- }
