@@ -1,4 +1,6 @@
 @import 'banner_principal.css';
+@import 'link_quiz.css';
+@import 'rodape.css';
 
 * {
     margin: 0;

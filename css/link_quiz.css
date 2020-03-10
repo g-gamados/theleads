@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600&display=swap');
+
+.quiz {
+    margin-top: 50px;
+    background-color: #67B2E8;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.container > p {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    color:#000;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.botao-quiz {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color:#fff;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: max-content; */
+}
+
+.botao-quiz > a {
+    margin: 0 auto;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.botao-quiz:hover {
+    color: #000;
+}
+
+.botao-quiz:visited {
+    color: rgb(87, 91, 94);
+}
+
+@media screen and (max-width: 767px) {
+    .quiz {
+        /* max-width: 70vw; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container > p {
+        font-family: "Cabin", Arial, Helvetica, sans-serif;
+        color:#000;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+}
+
