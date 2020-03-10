@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600&display=swap');
+
+.main-banner {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr 1fr;
+    height: 100vh;
+}
+
+.div-azul {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #67B2E8;
+    height: 200px;
+    width: 100%;
+    z-index: -2;
+    display: flex;
+    align-items: center;
+}
+
+.div-azul img {
+    width: 220px;
+    height: auto;
+}
+
+.main-banner-texto {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-left: 110px;
+}
+
+.main-banner-texto p {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 2.25rem;
+    line-height: 3.2rem;
+}
+
+.main-banner-img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.main-banner-img img {
+    padding-right: 110px;
+    padding-top: 30px;
+    width: 555px;
+    top: 35px;
+}
+
+.cta {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 400px;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta p {
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    color: rgb(97, 97, 97);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botao {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #0C2074;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: max-content; */
+}
+
+.botao > a {
+    margin: 0 auto;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.botao:hover {
+    color: #67B2E8;
+}
+
+.botao:visited {
+    color: #67B2E8;
+}
+
+@media (min-width: 320px) {
+    .main-banner {
+        display: inline;
+    }
+
+    .div-azul img {
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .main-banner-img img {
+        display: none;
+    }
+
+    .main-banner-texto {
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-banner-texto p {
+        font-family: "Cabin", Arial, Helvetica, sans-serif;
+        color: #000;
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+
+    .cta {
+        max-width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+}
+
