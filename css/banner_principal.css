@@ -104,7 +104,7 @@
     color: #67B2E8;
 }
 
-@media (min-width: 320px) {
+@media screen and (max-width: 767px) {
     .main-banner {
         display: inline;
     }
