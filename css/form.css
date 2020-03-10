@@ -25,10 +25,11 @@
     width: 360px;
 }
 .email-text {
+    margin-left: 40px;
     font-family: "Cabin", Arial, Helvetica, sans-serif;
     color:#000;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
     text-align: left;
     width: 300px;
 }
