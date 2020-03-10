@@ -21,7 +21,8 @@
 }
 
 .div-azul img {
-    width: 220px;
+    margin-left: 30px;
+    width: 180px;
     height: auto;
 }
 
@@ -50,7 +51,7 @@
 .main-banner-img img {
     padding-right: 110px;
     padding-top: 30px;
-    width: 555px;
+    width: 490px;
     top: 35px;
 }
 
