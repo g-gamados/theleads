@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/email.css">
+    <link rel="stylesheet" href="./css/email.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seu Novo Futuro</title>
 </head>
 <body class="fundo">
-  <header>
-    <img class="tam-img" src="./img/logo.png" alt="logo">
-  </header>
   <div class="flex">
     <div class="midle-text">
+      <header>
+        <img class="tam-img" src="./img/logo.png" alt="logo">
+      </header>    
       <p class="email-text">
           Cadastrando o seu e-mail na nossa <br/>
           curadoria de conteúdo, você receberá <br/>
@@ -46,12 +46,6 @@
             required
             placeholder="Digite um email válido."
           />
-        </div>
-        <div class="seque">
-          1<input class="check" type="checkbox" name="" id="1"> 
-          2<input class="check" type="checkbox" name="" id="2"> 
-          3<input class="check" type="checkbox" name="" id="3"> 
-          4<input class="check" type="checkbox" name="" id="4"> 
         </div>
         <input name="redirectTo" type="hidden" value="https://seunovofuturo.netlify.com/thankyou" />
         <input name="debugMode" type="hidden" value="true" />

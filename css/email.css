@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,600&display=swap');
 body {
     margin: 0;
 }
@@ -20,7 +21,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin: 16px;
 }
 .midle-text {
     width: 360px;
@@ -31,11 +32,14 @@ header {
     text-align: center;
     border-radius: 30px;
     width: 360px;
+    padding: 0px 16px;
 }
 .email-text {
     font-family: Cabin, sans;
-    font-weight: 600;
-    line-height: 18px;
+    font-weight: 600;    
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 330px;
 }
 .circulo {
     height: 165px;
@@ -52,6 +56,7 @@ header {
     font-size: 12px;
     font-family: Cabin, sans;
     font-weight: 600;
+    width: 95px;
 }
 .img-circulo {
     height: 80px;
@@ -104,10 +109,3 @@ header {
 .canto-inferior {
     align-self: flex-end;
  }
-.check{
-    margin-top: 20px;
-    margin-right: 45px;
-}
-.seque{
-    color: #000;
-}
