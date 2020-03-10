@@ -79,3 +79,10 @@ header {
 .canto-inferior {
    align-self: flex-end;
 }
+.lista {
+    background-color: #67b2e8;
+    text-align: left;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+}
