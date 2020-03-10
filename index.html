@@ -1,40 +1,69 @@
 <html>
+
   <head>
     <title>Seu Novo Futuro</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="description" content="Seu Novo Futuro te ajuda a conseguir o empréstimo do tamanho da sua necessidade!" />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
+  
   <body>
-    <h1>Exemplo de formulário para o Show me the Leads</h1>
-    <div class="container">
-      <form method="POST" action="https://smtl.gama.academy/leads/00ec60b0-5ffc-11ea-bda1-a79ae41d1f3c">
-        <p class="nome">
-          Nome:
-          <input
-            name="name"
-            type="text"
-            pattern="^\D{2,}\s[\D\s]{2,}$"
-            title="Digite seu nome completo"
-            required
-            placeholder="Digite seu nome completo."
-          />
-        </p>        
-        <p class="email">
-          E-mail:
-          <input
-            name="email"
-            type="email"
-            title="Digite um email válido"
-            required
-            placeholder="Digite um email válido."
-          />
-        </p>
-        <input name="redirectTo" type="hidden" value="https://seunovofuturo.netlify.com/thankyou" />
-        <input name="debugMode" type="hidden" value="true" />
-        <p class="button">
-          <input type="submit" />
-        </p>
-      </form>
+
+<!-- banner principal -->
+    <div class="main-banner">
+      <div class="div-azul">
+        <img src="img/logo.png"/>
+      </div>
+
+      <div class="main-banner-texto">
+        <p>Precisando de um ajuda pra trilhar seu futuro? Seja para abrir seu próprio negócio ou saber como quitar suas dívidas, podemos te ajudar.</p>
+      </div>
+
+      <div class="main-banner-img">
+        <img src="./img/img_topo.png"/>
+      </div>
+
+      <div class="cta">
+        <p>Receba nossa curadoria com um conteúdo sobre finanças que vai te ajudar a realizar seu sonho</p>
+        <a href="#" class="botao">Junte-se a nós!</a>
+      </div>
     </div>
-    
+<!-- fim do banner principal -->
+
+<!-- formulario -->
+    <div class="formulario">
+      <div class="container">
+        <form method="POST" action="https://smtl.gama.academy/leads/00ec60b0-5ffc-11ea-bda1-a79ae41d1f3c">
+          <p class="nome">
+            Nome:
+            <input
+              name="name"
+              type="text"
+              pattern="^\D{2,}\s[\D\s]{2,}$"
+              title="Digite seu nome completo"
+              required
+              placeholder="Digite seu nome completo."
+            />
+          </p>        
+          <p class="email">
+            E-mail:
+            <input
+              name="email"
+              type="email"
+              title="Digite um email válido"
+              required
+              placeholder="Digite um email válido."
+            />
+          </p>
+          <input name="redirectTo" type="hidden" value="https://seunovofuturo.netlify.com/thankyou" />
+          <input name="debugMode" type="hidden" value="true" />
+          <p class="button">
+            <input type="submit" />
+          </p>
+        </form>
+      </div>
+    </div>
+<!-- fim do formulario -->
+
   </body>
 </html>
