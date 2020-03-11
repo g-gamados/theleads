@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 0.5fr 1fr;
-    height: 100vh;
+    height: 130vh;
+    padding-bottom: 20px;
 }
 
 .div-azul {
@@ -13,7 +14,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: #67B2E8;
-    height: 200px;
+    height: 150px;
     width: 100%;
     z-index: -2;
     display: flex;
@@ -52,7 +53,7 @@
 .main-banner-img img {
     padding-right: 110px;
     padding-top: 30px;
-    width: 650px;
+    width: 400px;
     top: 35px;
 }
 
