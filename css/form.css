@@ -3,11 +3,16 @@
 }
 
 .fundo {
-    background: #0c2074;
-    color: white;
+    background: #67b2e8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .flex {
+    background: #0c2074;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -27,7 +32,7 @@
 .email-text {
     margin-left: 40px;
     font-family: "Cabin", Arial, Helvetica, sans-serif;
-    color:#000;
+    color:#fff;
     font-size: 1.8rem;
     line-height: 3rem;
     text-align: left;
